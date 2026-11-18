@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations - Black Goose Bistro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Book a Table</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="reservations.html">Reservations</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <main>
+        <h2>Reservation Form</h2>
+
+        <form action="#" method="get">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+
+            <label for="contact">Contact Number:</label>
+            <input type="tel" id="contact" name="contact" required>
+            <br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <br>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+            <br>
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests"
+                   min="1" required>
+            <br>
+            <button type="submit">Book Table</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>Black Goose Bistro | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
